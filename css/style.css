@@ -313,12 +313,19 @@ box-sizing: 0;
     border: 20px solid transparent;
  
 }
+.container{
+    margin-bottom: 0px;
+
+}
         .containerTexto {
             width: 100%;
                             
         }
          .section-1{
           margin: 0;
+        }
+        .evento{
+            margin-bottom: 0px;
         }
         .evento:nth-child(1){
           flex-direction: column;
