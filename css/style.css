@@ -174,7 +174,7 @@ box-sizing: 0;
 .evento {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
     position: relative;
 }
 
@@ -202,7 +202,7 @@ box-sizing: 0;
 }
 
 .foto {
-    width: 42%;
+    width: 40%;
     border: 10px solid #fff;
     position: relative;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
