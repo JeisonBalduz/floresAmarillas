@@ -18,27 +18,7 @@ box-sizing: 0;
     background-color: black;
 }
 
-.botones{
-    padding: 9px;
-    border-radius: 80px;
-    background-color: transparent;
-    border: none;
-}
 
-.botones a{
-    background-color: #80880c;
-    padding: 9px;
-    border-radius: 80px;
-    -webkit-border-radius: 80px;
-    -moz-border-radius: 80px;
-    -ms-border-radius: 80px;
-    -o-border-radius: 80px;
-
-}
-
-.botones a:focus{
-    background-color: rgb(194, 172, 50);
-}
 
 .greetings{
     display: flex;
@@ -132,6 +112,7 @@ box-sizing: 0;
 .section-1 {
     display: flex;
     margin: 50px 20px 20px 20px;
+    padding: 70px;
 }
 
 .section-1  span{
@@ -140,14 +121,10 @@ box-sizing: 0;
     color: #b6b4a4;
     text-shadow: 0 0 12px #c5e9131f;
 }
-.section-1 img{
-    width: 20%;
-    height: 400px;
-    margin-left: 50px;
+
+.section-2{
+ background-color: white;
 }
-
-
-
 
 
 
@@ -191,16 +168,24 @@ box-sizing: 0;
     top: calc(50% - 9px);
     left: calc(50% - 9px);
 }
-
-.fecha {
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    width: calc(42% + 20px);
-    font-size: 32px;
-    font-weight: normal;
+.containerTexto{
+        display: flex;
+        flex-direction: column;
+        color: #b6b4a4;
+        align-items: center;
+        justify-content: start;
+        width: calc(42% + 20px);
+        font-size: 32px;
+        font-weight: normal;
 }
+.titulo {
+    color: #111;
+}
+.texto{
 
+        font-size: 25px;
+        font-weight: normal;
+    }
 .foto {
     width: 40%;
     border: 10px solid #fff;
@@ -220,6 +205,7 @@ box-sizing: 0;
 
 .foto img {
     width: 100%;
+    height: 500px;
     vertical-align: top;
 }
 
@@ -239,6 +225,41 @@ box-sizing: 0;
     left: -50px;
 }
 
+
+.section-3 {
+    text-align: center;
+
+}
+.section-3 h3 {
+    font-size: 32px;
+    font-weight: normal;
+}
+
+.botones {
+    padding: 9px;
+    border-radius: 80px;
+    background-color: transparent;
+    border: none;
+}
+
+.botones a {
+    background-color: #80880c;
+    padding: 9px;
+    border-radius: 80px;
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+    -ms-border-radius: 80px;
+    -o-border-radius: 80px;
+
+}
+
+.botones a:focus {
+    background-color: rgb(194, 172, 50);
+}
+
+.button{
+    margin-bottom: 50px;
+}
 
 
 
