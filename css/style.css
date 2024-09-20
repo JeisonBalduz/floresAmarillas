@@ -276,7 +276,7 @@ box-sizing: 0;
         }
 
         .section-2 {
-            
+            display: flex;
             justify-content: center;
         }
 
@@ -314,9 +314,12 @@ box-sizing: 0;
             position: relative;
             box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
         }
+        .foto img{
+           
+        }
 
         .foto::after {
-            content: "";
+            content: none;
             display: block;
             border: 20px solid transparent;
         
