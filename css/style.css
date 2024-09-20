@@ -267,7 +267,8 @@ box-sizing: 0;
 
 @media screen and (max-width:574px){
     .contenanimation{
-        display: block;
+        display: flex;
+        flex-wrap: wrap;
         font-size: 4rem;
         font-weight: 800;
         text-align: center;
