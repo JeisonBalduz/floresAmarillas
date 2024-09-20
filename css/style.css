@@ -129,7 +129,10 @@ box-sizing: 0;
     font-size: 1rem;
     color: #111;
 }
-
+.section-1{
+    display: flex;
+    margin: 40px 20px 0px 20px;
+}
 @media screen and (max-width:574px){
     .contenanimation{
         display: block;
