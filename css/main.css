@@ -117,7 +117,9 @@ body {
       letter-spacing: 3px;
       transform: scale(1.0);
 }
-
+.eliminar{
+    display: none;
+  }
 }
 
 .flower {
