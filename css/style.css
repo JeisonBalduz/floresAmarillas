@@ -43,6 +43,7 @@ box-sizing: 0;
         text-shadow: none;
     }
 }
+/* DE DIA*/
 /* primer div*/
 .contenanimation:nth-child(1)   > span:nth-child(1){
     animation-delay: .8s ;
@@ -96,6 +97,85 @@ box-sizing: 0;
 .contenanimation:nth-child(3) >span:nth-child(6) {
     animation-delay: 3.8s;
 }
+
+
+/* DE NOCHE*/
+
+.contenanimationnoche:nth-child(1)>span:nth-child(1) {
+    animation-delay: .8s;
+}
+
+.contenanimationnoche:nth-child(1)>span:nth-child(2) {
+    animation-delay: 1s;
+}
+
+.contenanimationnoche:nth-child(1)>span:nth-child(3) {
+    animation-delay: 1.2s;
+}
+
+.contenanimationnoche:nth-child(1)>span:nth-child(4) {
+    animation-delay: 1.4s;
+}
+
+.contenanimationnoche:nth-child(1)>span:nth-child(5) {
+    animation-delay: 1.6s;
+}
+
+.contenanimationnoche:nth-child(1)>span:nth-child(6) {
+    animation-delay: 1.8s;
+}
+
+/* segundo div*/
+.contenanimationnoche:nth-child(2)>span:nth-child(1) {
+    animation-delay: 2s;
+}
+
+.contenanimationnoche:nth-child(2)>span:nth-child(2) {
+    animation-delay: 2.2s;
+}
+
+.contenanimationnoche:nth-child(2)>span:nth-child(3) {
+    animation-delay: 2.4s;
+}
+
+.contenanimationnoche:nth-child(2)>span:nth-child(4) {
+    animation-delay: 2.8s;
+}
+
+.contenanimationnoche:nth-child(2)>span:nth-child(5) {
+    animation-delay: 3s;
+}
+
+.contenanimationnoche:nth-child(2)>span:nth-child(6) {
+    animation-delay: 3.2s;
+}
+
+/* tercer div*/
+.contenanimationnoche:nth-child(3)>span:nth-child(1) {
+    animation-delay: 3.4s;
+}
+
+.contenanimationnoche:nth-child(3)>span:nth-child(2) {
+    animation-delay: 3.6s;
+}
+
+.contenanimationnoche:nth-child(3)>span:nth-child(3) {
+    animation-delay: 3.8s;
+}
+
+.contenanimationnoche:nth-child(3)>span:nth-child(4) {
+    animation-delay: 4s;
+}
+
+.contenanimationnoche:nth-child(3)>span:nth-child(5) {
+    animation-delay: 4.2s;
+}
+
+.contenanimationnoche:nth-child(3)>span:nth-child(6) {
+    animation-delay: 4.4s;
+}
+
+
 
 .description{
     font-size: 1.5rem;
